@@ -4,7 +4,8 @@ import AudioEditor from "./AudioEditor";
 const InputURL = ({ setAudioLink }) => {
   const [input, setInput] = useState("");
 
-  const apiURL = "http://co.wuk.sh"; // Update with your API URL
+  const apiURL = "http://co.wuk.sh";
+  // const apiURL = "http://localhost:9000"; // Update with your API URL
 
   function handleFetchDebug() {
     setAudioLink("1");

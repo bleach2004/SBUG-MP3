@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import miku from "./assets/miku.jpg";
 
 import InputURL from "./components/InputURL.jsx";
 import AudioEditor from "./components/AudioEditor.jsx";
@@ -11,7 +12,7 @@ const App = () => {
     <div className="flex h-screen justify-center items-center">
       <div className="grid my-auto gap-5 w-3/4">
         <div>
-          <img className="w-52 mb-4 mx-auto" src="src/assets/miku.jpg" />
+          <img className="w-52 mb-4 mx-auto" src={miku} />
         </div>
         <div>
           <h1 className="text-white text-4xl text-center">sbug mp3</h1>
