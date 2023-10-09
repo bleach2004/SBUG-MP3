@@ -6,11 +6,11 @@ export default defineConfig({
     build: {
     rollupOptions: {
       input: {
-        cutter: '/mp3-cutter/src/cutter.js',
-        AudioEditor: '/src/components/AudioEditor.jsx',
-        InputURL: '/src/components/InputURL.jsx',
-        app: '/src/app.jsx',
-        main: '/src/main.jsx',
+        cutter: 'mp3-cutter/src/cutter.js',
+        AudioEditor: 'src/components/AudioEditor.jsx',
+        InputURL: 'src/components/InputURL.jsx',
+        app: 'src/app.jsx',
+        main: 'src/main.jsx',
       },
     },
   },
