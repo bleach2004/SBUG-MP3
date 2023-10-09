@@ -9,7 +9,7 @@ export default defineConfig({
         cutter: 'mp3-cutter/src/cutter.js',
         AudioEditor: 'src/components/AudioEditor.jsx',
         InputURL: 'src/components/InputURL.jsx',
-        app: './src/app.jsx',
+        app: './src/App.jsx',
       },
     },
   },

@@ -2,7 +2,9 @@ import React, { useEffect, useRef, useState } from "react";
 import WaveSurfer from "wavesurfer.js";
 import RegionsPlugin from "wavesurfer.js/dist/plugins/regions";
 
+import cutter from "/mp3-cutter/src/cutter.js";
 import { Helmet } from "react-helmet";
+
 
 
 
