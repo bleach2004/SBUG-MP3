@@ -6,12 +6,11 @@ export default defineConfig({
     build: {
     rollupOptions: {
       input: {
-        main: 'src/main.js',
-        cutter: 'mp3-cutter/src/cutter.js' // Make sure this path is correct
+        cutter: '/mp3-cutter/src/cutter.js' // Make sure this path is correct
       },
     },
   },
-  
+
   plugins: [react()],
 })
 
